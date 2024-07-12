@@ -1,0 +1,11 @@
+.header{
+    background-color: lightgray;
+    height: 20%;
+    display: flex
+}
+h2{
+    color: darkgray;
+}
+p{
+    color: darkgray;
+}
