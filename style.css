@@ -1,11 +1,48 @@
 .header{
-    background-color: lightgray;
-    height: 20%;
-    display: flex
+    background-color: rgb(240,240,240);
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
 }
-h2{
+.left{
+    margin-left: 20px;
+    width: 50%;
+}
+.right{
+    margin-right: 20px;
+    width: 50%;
+}
+.header .right{
+    text-align:right;
+}
+.header h1{
+    margin-bottom: 5px
+}
+.header h3{
+    margin-top: 5px;
+}
+.footer{
+    background-color: rgb(240,240,240);
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.filler{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;    
+}
+
+h3{
     color: darkgray;
 }
 p{
     color: darkgray;
+}
+
+.sheet{
+    height: 1754px;
+    width: 1240px;
+    margin:auto;
+    border: solid thin black;
 }
